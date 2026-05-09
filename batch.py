@@ -1,6 +1,6 @@
 import os
 
-output_dir = r"P:\class_video"
+output_dir = "output"
 os.makedirs(output_dir, exist_ok=True)
 
 with open("urls.txt", "r", encoding="utf-8") as f:
