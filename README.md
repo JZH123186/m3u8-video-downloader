@@ -44,13 +44,12 @@ https://example.com/video1.m3u8
 https://example.com/video2.m3u8
 
 2️⃣ 运行脚本
-Bash
+在文件夹内按shift+右键，打开powershell,执行：
 python batch.py
 
 3️⃣ 输出结果
 下载完成的视频会保存到：
-Plain text
-P:\class_video
+output文件夹
 
 🧠 工作原理
 使用 ffmpeg 读取 m3u8 视频流，并自动下载并合并为 MP4 文件。
